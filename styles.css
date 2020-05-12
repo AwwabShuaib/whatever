@@ -1,0 +1,203 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 1300px;
+    height: auto;
+    background-color: brown;
+    margin: 0 auto;
+}
+#header{
+    width: 1100px;
+    height: 625px;
+    background-color: rgb(51, 102, 161);
+    border-bottom: 3px solid darkslategray;
+    margin: 0 auto;
+}
+#change{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    right: 180px;
+}
+#change a{
+    color: rgb(255, 230, 0);
+}
+#change p{
+    display: inline-block;
+}
+#search{
+    width: 300px;
+    height: 75px;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+    position: absolute;
+    right: 140px;
+    top: 25px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+#go{
+    width: 60px;
+    height: 50px;
+    background-color: rgb(51, 102, 161);
+    border-radius: 10px;
+    border:3px outset lightgray;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    text-align: center;
+    padding: 12px 13px 10px 10px;
+}
+#navbar{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(101, 141, 187);
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px;
+    position: absolute;
+    top: 125px;
+    left: 195px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 15px 2px 15px;
+}
+li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: teal;
+}
+#veritical{
+    width: 270px;
+    height:310px;
+    background-color: rgb(51, 102, 161);
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    line-height: 2;
+}
+i{
+    color: rgb(255, 230, 0);
+}
+.underline{
+    text-decoration: underline;
+}
+#about{
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+#poem{
+    width: 486px;
+    height: 400px;
+    color: rgb(255, 230, 0);
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    line-height: 2;
+}
+#zen{
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 560px;
+    right: 321px;
+}
+#content{
+    width: 1100px;
+    height: 260px;
+    background-color: white;
+    margin: 0 auto;
+}
+#whale{
+    width: 985px;
+    height: 290px;
+    margin-left: 60px;
+}
+.stuff{
+    width: 450px;
+    height: 215px;
+    border-top: 5px solid rgb(101, 141, 187);
+    text-align: center;
+    margin: 20px 15px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.container{
+    width: 350px;
+    height: 300px;
+}
+span{color: steelblue;
+}
+.listb{
+    width: 280px;
+    height: 105px;
+    margin: 0px 30px 0px;
+    list-style-type: square;
+}
+.lb{
+    text-align: center;
+    list-style-type: square;
+}
+.tl{
+    color: rgb(73, 127, 189);
+    font-size: 15px;
+}
+.lista{
+    width: 290px;
+    height: 80px;
+    margin: 0px 30px 0px;
+    list-style-type: square;
+}
+#footer{
+    width: 1100px;
+    height: 150px;
+    background-color: rgb(51, 102, 161);
+    margin: 0 auto;
+}
+.last{
+    color: lightgray;
+    text-decoration: none;
+    font-size: larger;
+    margin: 50px;
+}
+#extra{
+    background-color: rgb(51, 102, 161);
+    position: absolute;
+    text-align: center;
+    top: 960px;
+    left: 250px;
+}
+#copyright{
+    background-color: rgb(51, 102, 161);
+    color: lightgray;
+    position: absolute;
+    top: 1015px;
+    right: 600px;
+}
